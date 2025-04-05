@@ -1,6 +1,18 @@
 .about {
   padding: 100px 0;
+  padding-top: 140px;
   background-color: #121212;
+  margin-top: 30px;
+  position: relative;
+}
+
+.about::before {
+  content: 'About section';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: red;
+  z-index: 10;
 }
 
 .about h2 {

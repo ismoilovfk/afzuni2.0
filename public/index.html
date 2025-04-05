@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <style>
-      /* Добавляю базовые стили для body, чтобы избежать белого экрана */
+      /* Стили для отладки и обеспечения базовой видимости */
       body {
         margin: 0;
         padding: 0;
@@ -20,14 +20,55 @@
         font-family: 'Roboto', sans-serif;
       }
       
-      /* Временный фон для отладки */
+      /* Временный фон и стили для отладки */
       #root {
         min-height: 100vh;
+        position: relative;
+      }
+      
+      /* Отладочное сообщение, видимое независимо от React */
+      body::before {
+        content: 'HTML загружен';
+        position: fixed;
+        top: 30px;
+        right: 10px;
+        background-color: red;
+        color: white;
+        padding: 5px 10px;
+        z-index: 9999;
+        font-size: 14px;
+      }
+      
+      /* Запасной контент, если React не загрузится */
+      #fallback-content {
+        display: block;
+        padding: 20px;
+        margin-top: 80px;
+        text-align: center;
       }
     </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    
+    <!-- Запасной контент, который будет виден, если React не загрузится -->
+    <div id="fallback-content">
+      <h1>Afzuni - Надежный дистрибьютор в Таджикистане</h1>
+      <p>Если вы видите это сообщение, значит React-приложение не загрузилось. Пожалуйста, проверьте консоль на наличие ошибок.</p>
+    </div>
+    
+    <script>
+      // Скрываем запасной контент, если React загрузился
+      document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(function() {
+          const rootContent = document.getElementById('root').innerHTML;
+          const fallback = document.getElementById('fallback-content');
+          if (rootContent && rootContent.trim() !== '') {
+            if (fallback) fallback.style.display = 'none';
+          }
+        }, 1000); // Даем React секунду на рендеринг
+      });
+    </script>
   </body>
 </html> 

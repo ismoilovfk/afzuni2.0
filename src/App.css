@@ -24,6 +24,14 @@ html, body {
   background-color: #121212;
 }
 
+/* Отладочные стили для всех секций */
+section {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  min-height: 300px; /* Минимальная высота для видимости */
+}
+
 button {
   cursor: pointer;
   padding: 12px 24px;
