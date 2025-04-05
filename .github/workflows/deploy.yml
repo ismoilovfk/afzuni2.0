@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master  # Ветка, из которой будет происходить деплой
+      - master
 
 jobs:
   deploy:
@@ -15,7 +15,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 21
-          cache: 'npm'
           
       - name: Install dependencies
         run: npm install
@@ -26,5 +25,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: build  # Папка с собранным проектом
-          branch: gh-pages  # Ветка для GitHub Pages 
+          folder: build
+          branch: gh-pages 
