@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/afzuni2.0/static/css/main.5cadef82.css",
+    "main.js": "/afzuni2.0/static/js/main.c6753013.js",
+    "index.html": "/afzuni2.0/index.html",
+    "main.5cadef82.css.map": "/afzuni2.0/static/css/main.5cadef82.css.map",
+    "main.c6753013.js.map": "/afzuni2.0/static/js/main.c6753013.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cadef82.css",
+    "static/js/main.c6753013.js"
+  ]
+}
