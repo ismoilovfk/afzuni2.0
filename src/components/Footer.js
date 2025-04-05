@@ -14,19 +14,19 @@ const Footer = () => {
             <div className="footer-links-column">
               <h4>Links</h4>
               <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/features">Features</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
               </ul>
             </div>
             <div className="footer-links-column">
               <h4>Social</h4>
               <ul>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">GitHub</a></li>
+                <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
               </ul>
             </div>
           </div>
