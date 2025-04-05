@@ -1,88 +1,46 @@
-# Afzuni - Сайт компании дистрибьютора
+# Tajik Global Distribution
 
-## Многостраничный сайт на React с маршрутизацией
+Modern website for a Tajikistan distribution company focused on finding international partners. Built with React, TypeScript, Styled Components, and Framer Motion for beautiful animations.
 
-### Структура сайта
+## Features
 
-Сайт состоит из следующих страниц:
-- **Главная** (`/`) - содержит основную информацию о компании, включая разделы "О нас", "Преимущества", "Партнеры" и "Контакты"
-- **О нас** (`/about`) - подробная информация о компании
-- **Преимущества** (`/services`) - преимущества работы с компанией
-- **Партнеры** (`/partners`) - информация о партнерах компании
-- **Контакты** (`/contact`) - контактная информация и форма обратной связи
+- Responsive design for all devices
+- Beautiful animations using Framer Motion
+- Modern UI with a professional look
+- Optimized for international audiences
 
-### Использованные технологии
+## Getting Started
 
-- React.js
-- React Router (маршрутизация между страницами)
-- CSS (стилизация)
-- HashRouter (для корректной работы на GitHub Pages)
+### Prerequisites
 
-### Как запустить
+- Node.js (v14 or newer)
+- npm or yarn
 
-1. Установить зависимости:
-```bash
-npm install
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Start the development server:
+   ```
+   npm start
+   ```
+
+### Building for Production
+
 ```
-
-2. Запустить в режиме разработки:
-```bash
-npm start
-```
-
-3. Собрать для производственной среды:
-```bash
 npm run build
 ```
 
-4. Опубликовать на GitHub Pages:
-```bash
-npm run deploy
-```
+The build will be available in the `build` folder, ready for deployment.
 
-### Особенности реализации
+## Deployment
 
-- Используется HashRouter для совместимости с GitHub Pages
-- Каждая страница имеет свой URL-адрес для прямой навигации
-- Мобильно-адаптивный дизайн
-- Оптимизация для поисковых систем (SEO)
+This project is set up to automatically deploy to GitHub Pages using GitHub Actions.
+Just push to the master branch, and the site will be automatically deployed.
 
-## Запуск с использованием Docker
+## License
 
-### Вариант 1: Сборка и запуск через Docker Compose
-```bash
-docker-compose up
-```
-
-### Вариант 2: Сборка и запуск через Docker напрямую
-```bash
-# Сборка образа
-docker build -t react-hello-world .
-
-# Запуск контейнера
-docker run -p 3000:80 react-hello-world
-```
-
-Приложение будет доступно по адресу [http://localhost:3000](http://localhost:3000) в вашем браузере.
-
-## Деплой на GitHub Pages
-
-### Ручной деплой
-1. Обновите поле `homepage` в package.json на ваш GitHub Pages URL:
-```json
-"homepage": "https://<USERNAME>.github.io/<REPO_NAME>"
-```
-
-2. Установите зависимости и выполните деплой:
-```bash
-npm install
-npm run deploy
-```
-
-### Автоматический деплой через GitHub Actions
-После пуша в ветку main/master, GitHub Actions автоматически соберет и задеплоит приложение на GitHub Pages.
-
-Для настройки:
-1. Убедитесь, что репозиторий публичный или у вас есть GitHub Pro
-2. В настройках репозитория (Settings > Pages) выберите источник: ветка gh-pages
-3. После успешного выполнения workflow, ваше приложение будет доступно по адресу https://<USERNAME>.github.io/<REPO_NAME> 
+MIT 
