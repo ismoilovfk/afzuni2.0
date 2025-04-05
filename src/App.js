@@ -1,29 +1,36 @@
 import React from 'react';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import Services from './components/Services';
-import Partners from './components/Partners';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { 
+  HomePage, 
+  AboutPage, 
+  ServicesPage, 
+  PartnersPage, 
+  ContactPage 
+} from './pages';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <div className="cover-image"></div>
-      <div className="content-wrapper">
-        <Header />
-        <main>
-          <Hero />
-          <About />
-          <Services />
-          <Partners />
-          <Contact />
-        </main>
-        <Footer />
+    <Router>
+      <div className="App">
+        <div className="cover-image"></div>
+        <div className="content-wrapper">
+          <Header />
+          <main>
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/about" element={<AboutPage />} />
+              <Route path="/services" element={<ServicesPage />} />
+              <Route path="/partners" element={<PartnersPage />} />
+              <Route path="/contact" element={<ContactPage />} />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 

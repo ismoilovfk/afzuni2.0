@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import './Hero.css';
 
 const Hero = () => {
@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="hero-content">
         <h1>Надежный дистрибьютор в Таджикистане</h1>
         <p>Afzuni — путь к изобилию и процветанию</p>
-        <Link to="contact" className="cta-button" smooth={true} duration={500}>
+        <Link to="/contact" className="cta-button">
           Свяжитесь с нами
         </Link>
       </div>
