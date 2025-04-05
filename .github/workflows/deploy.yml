@@ -5,6 +5,10 @@ on:
     branches:
       - master
 
+# Разрешения для GITHUB_TOKEN
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
