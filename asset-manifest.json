@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/afzuni2.0/static/css/main.e7483546.css",
-    "main.js": "/afzuni2.0/static/js/main.5060a337.js",
+    "main.css": "/afzuni2.0/static/css/main.3621b38b.css",
+    "main.js": "/afzuni2.0/static/js/main.2265785f.js",
     "static/media/Afzni-logo.png": "/afzuni2.0/static/media/Afzni-logo.e7f202995e10515ff122.png",
     "static/media/about.jpg": "/afzuni2.0/static/media/about.00f9a96f8fcce26c3319.jpg",
     "static/media/mikado.jpg": "/afzuni2.0/static/media/mikado.8459cc2010fcb710d258.jpg",
@@ -14,11 +14,11 @@
     "static/media/voron.png": "/afzuni2.0/static/media/voron.60676646acb54702bf76.png",
     "static/media/martin-logo.jpg": "/afzuni2.0/static/media/martin-logo.6679e58b9fd588dbc93b.jpg",
     "index.html": "/afzuni2.0/index.html",
-    "main.e7483546.css.map": "/afzuni2.0/static/css/main.e7483546.css.map",
-    "main.5060a337.js.map": "/afzuni2.0/static/js/main.5060a337.js.map"
+    "main.3621b38b.css.map": "/afzuni2.0/static/css/main.3621b38b.css.map",
+    "main.2265785f.js.map": "/afzuni2.0/static/js/main.2265785f.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7483546.css",
-    "static/js/main.5060a337.js"
+    "static/css/main.3621b38b.css",
+    "static/js/main.2265785f.js"
   ]
 }
