@@ -1,0 +1,118 @@
+.about {
+  padding: 100px 0;
+  background-color: #121212;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 2.5rem;
+  background: linear-gradient(90deg, #ff4d4d, #f9cb28);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+}
+
+.about h2::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, #ff4d4d, #f9cb28);
+}
+
+.about-content {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text p {
+  margin-bottom: 25px;
+  line-height: 1.8;
+  color: #e0e0e0;
+  font-size: 1.1rem;
+}
+
+.highlight {
+  font-size: 1.5rem !important;
+  font-weight: 600;
+  color: #ffffff !important;
+}
+
+.about-features {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.about-features li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 15px;
+  background: linear-gradient(145deg, #1a1a1a, #222222);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-features li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.feature-icon {
+  font-size: 1.2rem;
+  margin-right: 15px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #f9cb28;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.image-container {
+  position: relative;
+  height: 400px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.image-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .about-content {
+    flex-direction: column;
+  }
+  
+  .about-text,
+  .about-image {
+    width: 100%;
+  }
+} 

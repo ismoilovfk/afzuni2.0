@@ -6,11 +6,11 @@ const Hero = () => {
   return (
     <div className="hero" style={{ backgroundImage: `url(${backgroundImage})` }}>
       <div className="hero-content">
-        <h1>Welcome to Our Amazing App</h1>
-        <p>A modern React application with a beautiful background</p>
+        <h1>Надежный дистрибьютор в Таджикистане</h1>
+        <p>Afzuni — путь к изобилию и процветанию</p>
         <div className="hero-buttons">
-          <button>Get Started</button>
-          <button className="secondary-button">Learn More</button>
+          <button>Свяжитесь с нами</button>
+          <button className="secondary-button">Узнать больше</button>
         </div>
       </div>
     </div>
