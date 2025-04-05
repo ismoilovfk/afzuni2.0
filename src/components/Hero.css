@@ -1,6 +1,6 @@
 .hero {
   height: 100vh;
-  background-image: url('/back.png');
+  /* background-image property will be set in the component */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
