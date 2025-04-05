@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  cursor: pointer;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  background: linear-gradient(90deg, #ff4d4d, #f9cb28);
+  color: white;
+  font-size: 16px;
+  box-shadow: 0 4px 15px rgba(255, 77, 77, 0.3);
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 77, 77, 0.4);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+} 
