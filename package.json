@@ -1,9 +1,16 @@
 {
-  "name": "react-hello-world",
+  "name": "@ismoilovfk/afzuni2.0",
   "version": "1.0.0",
   "description": "Simple React Hello World application",
   "homepage": "https://ismoilovfk.github.io/afzuni2.0",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismoilovfk/afzuni2.0.git"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
