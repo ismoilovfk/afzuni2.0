@@ -1,24 +1,14 @@
 {
   "files": {
-    "main.css": "/afzuni2.0/static/css/main.3621b38b.css",
-    "main.js": "/afzuni2.0/static/js/main.2265785f.js",
-    "static/media/Afzni-logo.png": "/afzuni2.0/static/media/Afzni-logo.e7f202995e10515ff122.png",
-    "static/media/about.jpg": "/afzuni2.0/static/media/about.00f9a96f8fcce26c3319.jpg",
-    "static/media/mikado.jpg": "/afzuni2.0/static/media/mikado.8459cc2010fcb710d258.jpg",
-    "static/media/background.png": "/afzuni2.0/static/media/background.e66ab78616f61d492ea8.png",
-    "static/media/hlebprom.jpg": "/afzuni2.0/static/media/hlebprom.a488a37f32ec3aebdf85.jpg",
-    "static/media/Logo-Baraket-Isfara.png": "/afzuni2.0/static/media/Logo-Baraket-Isfara.139e2c19ef9e2278709b.png",
-    "static/media/sibyksys.png": "/afzuni2.0/static/media/sibyksys.d25eda88e4692e069401.png",
-    "static/media/sibbalt.png": "/afzuni2.0/static/media/sibbalt.48d925b853edcf6955be.png",
-    "static/media/vanya.png": "/afzuni2.0/static/media/vanya.2720d32d3118018a4dd5.png",
-    "static/media/voron.png": "/afzuni2.0/static/media/voron.60676646acb54702bf76.png",
-    "static/media/martin-logo.jpg": "/afzuni2.0/static/media/martin-logo.6679e58b9fd588dbc93b.jpg",
-    "index.html": "/afzuni2.0/index.html",
-    "main.3621b38b.css.map": "/afzuni2.0/static/css/main.3621b38b.css.map",
-    "main.2265785f.js.map": "/afzuni2.0/static/js/main.2265785f.js.map"
+    "main.css": "/static/css/main.a64ff014.css",
+    "main.js": "/static/js/main.b60a9b41.js",
+    "static/media/background.png": "/static/media/background.3079d15baba921a126ab.png",
+    "index.html": "/index.html",
+    "main.a64ff014.css.map": "/static/css/main.a64ff014.css.map",
+    "main.b60a9b41.js.map": "/static/js/main.b60a9b41.js.map"
   },
   "entrypoints": [
-    "static/css/main.3621b38b.css",
-    "static/js/main.2265785f.js"
+    "static/css/main.a64ff014.css",
+    "static/js/main.b60a9b41.js"
   ]
 }
