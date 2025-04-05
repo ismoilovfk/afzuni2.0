@@ -1,10 +1,12 @@
 import React from 'react';
 import './Hero.css';
-import backgroundImage from '../background.png';
 
 const Hero = () => {
   return (
-    <div className="hero" style={{ backgroundImage: `url(${backgroundImage})` }}>
+    <div 
+      className="hero" 
+      style={{ backgroundImage: `url("/back.png")` }}
+    >
       <div className="hero-content">
         <h1>Надежный дистрибьютор в Таджикистане</h1>
         <p>Afzuni — путь к изобилию и процветанию</p>
