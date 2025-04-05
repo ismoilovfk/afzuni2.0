@@ -1,0 +1,71 @@
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --accent-color: #e74c3c;
+  --text-color: #34495e;
+  --bg-color: #ecf0f1;
+  --white: #ffffff;
+  --background-color: #f9f9f9;
+  --header-height: 75px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  position: relative;
+}
+
+.cover-image {
+  opacity: 0.1;
+}
+
+.content-wrapper {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.9);
+  min-height: 100vh;
+  z-index: 1;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Общие стили для секций */
+section {
+  background-color: var(--white);
+  padding: 4rem 0;
+  margin: 2rem 0;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+  section {
+    padding: 3rem 0;
+  }
+} 
