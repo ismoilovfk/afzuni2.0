@@ -34,10 +34,10 @@ const Contact = () => {
             </div>
             
             <div className="social-links">
-              <a href="#" className="social-button">
+              <a href="https://wa.me/99255765555" target="_blank" rel="noopener noreferrer" className="social-button">
                 <span>Написать в WhatsApp</span>
               </a>
-              <a href="#" className="social-button">
+              <a href="https://t.me/99255765555" target="_blank" rel="noopener noreferrer" className="social-button">
                 <span>Написать в Telegram</span>
               </a>
             </div>
