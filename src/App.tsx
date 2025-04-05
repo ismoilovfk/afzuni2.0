@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import backgroundImage from './assets/images/back.png.ts';
+import backgroundImage from './assets/images/back.png';
 import FloatingElements from './components/FloatingElements';
 
 const AppContainer = styled.div`
